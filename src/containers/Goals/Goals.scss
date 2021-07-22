@@ -1,0 +1,50 @@
+.Goals {
+  &__container {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      font-size: 30px;
+      margin: 0;
+      border-right: 1px solid #00adef;
+      line-height: 59px;
+      text-transform: uppercase;
+      flex: 2;
+    }
+
+    .content {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
+      flex: 8;
+
+      .headinginfo {
+        &-number {
+          font-size: 35px;
+          color: #333333;
+          margin: 0;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  .cardGroup {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .history {
+    text-align: left;
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+  }
+}
